@@ -21,20 +21,20 @@ public class Main {
 
         Arrays.sort(reverseArrayOfInts, Collections.reverseOrder());
 
-        System.out.println("Array after sorting in descending order - " + Arrays.toString(reverseArrayOfInts) + ".");
+        System.out.println("Array after sorting in descending order - " + Arrays.toString(reverseArrayOfInts));
     }
 
     private static void sumOnlyPositive() {
         int[] positiveNegativeInts = {6, -8, 13, 15, -147, 19, 164, -74, -2, -7, 10, 69, 666};
         int sumPositive = 0;
 
-        for (int i = 0; i < positiveNegativeInts.length - 1; i++) {
+        for (int i = 0; i < positiveNegativeInts.length; i++) {
             if (positiveNegativeInts[i] > 0) {
                 sumPositive += positiveNegativeInts[i];
             }
         }
 
-        System.out.println("The sum of only positive numbers in the array is " + sumPositive + ".");
+        System.out.println("The sum of only positive numbers in the array is " + sumPositive);
     }
 
     private static void averageOfArray() {
@@ -47,7 +47,7 @@ public class Main {
         }
 
         average = sum / averageInt.length;
-        System.out.println("The average of a list of numbers in this array is " + average + ".");
+        System.out.println("The average of a list of numbers in this array is " + average);
     }
 
     private static void withoutDouplicates() {

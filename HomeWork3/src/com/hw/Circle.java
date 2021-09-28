@@ -2,7 +2,7 @@ package com.hw;
 
 public class Circle {
 
-    private double rad = 1;
+    private double rad;
 
     public Circle(double rad) {
         this.rad = rad;
@@ -10,6 +10,5 @@ public class Circle {
 
     public double areaOfCircle() {
         return Math.round(Math.PI * Math.pow(rad, 2));
-        //System.out.println();
-        }
     }
+}

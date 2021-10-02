@@ -31,7 +31,7 @@ public class SquarePyramid extends SpaceShape {
 
     @Override
     public double getVolume() {
-        return (( 1 / (double)3) * Math.pow(baseWidth, 2) * pyramidHeight);
+        return ((1 / (double) 3) * Math.pow(baseWidth, 2) * pyramidHeight);
     }
 
     @Override

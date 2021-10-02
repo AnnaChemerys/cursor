@@ -8,11 +8,4 @@ public abstract class Shape {
         this.vertexByX = vertexByX;
         this.vertexByY = vertexByY;
     }
-
-    //toString
 }
-
-
-
-
-

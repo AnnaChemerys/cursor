@@ -2,7 +2,7 @@ package com.hw;
 
 import java.text.DecimalFormat;
 
-public class Sphere extends SpaceShape{
+public class Sphere extends SpaceShape {
 
     private int radius;
 
@@ -24,7 +24,7 @@ public class Sphere extends SpaceShape{
 
     @Override
     public double getVolume() {
-        return (4 / 3) * Math.PI * Math.pow(radius, 3);
+        return (4 / (double) 3) * Math.PI * Math.pow(radius, 3);
     }
 
     @Override

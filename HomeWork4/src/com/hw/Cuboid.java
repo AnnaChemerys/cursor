@@ -2,7 +2,7 @@ package com.hw;
 
 import java.text.DecimalFormat;
 
-public class Cuboid extends SpaceShape{
+public class Cuboid extends SpaceShape {
 
     private int width;
     private int height;

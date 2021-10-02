@@ -2,7 +2,7 @@ package com.hw;
 
 import java.text.DecimalFormat;
 
-public class Rectangle extends PlaneShape{
+public class Rectangle extends PlaneShape {
 
     private int width;
     private int height;

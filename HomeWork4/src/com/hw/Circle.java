@@ -2,7 +2,7 @@ package com.hw;
 
 import java.text.DecimalFormat;
 
-public class Circle extends PlaneShape{
+public class Circle extends PlaneShape {
 
     private int radius;
 

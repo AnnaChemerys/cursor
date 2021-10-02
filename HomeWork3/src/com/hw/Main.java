@@ -1,5 +1,7 @@
 package com.hw;
 
+import java.text.DecimalFormat;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -31,8 +33,9 @@ public class Main {
         System.out.println("");
         System.out.println("Task 3");
 
-        Money money1 = new Money(421, (byte) 2);
+        Money money1 = new Money(640, (byte) 2);
         Money money2 = new Money(100, (byte) 15);
+        DecimalFormat df = new DecimalFormat("###.###");
 
         System.out.println("The money1 is " + money1);
         System.out.println("The money2 is " + money2);
@@ -42,8 +45,8 @@ public class Main {
         System.out.println("Subtraction money1 - money2 = " + money1.subtractionMoney(money2));
         System.out.println("Subtraction money2 - money1 = " + money2.subtractionMoney(money1));
 
-        System.out.println("The result of division money1 by money2 =  " + money1.divisionOfSums(money2));
-        System.out.println("The result of division money2 by money1 =  " + money2.divisionOfSums(money1));
+        System.out.println("The result of division money1 by money2 = " + df.format(money1.divisionOfSums(money2)));
+        System.out.println("The result of division money2 by money1 =  " + df.format(money2.divisionOfSums(money1)));
 
         System.out.println("The result of division money1 with fractional =  " + money1.divisionByFractionalNumber(16.5));
         System.out.println("The result of division money2 with fractional =  " + money2.divisionByFractionalNumber(16.5));

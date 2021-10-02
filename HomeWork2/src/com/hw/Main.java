@@ -28,9 +28,9 @@ public class Main {
         int[] positiveNegativeInts = {6, -8, 13, 15, -147, 19, 164, -74, -2, -7, 10, 69, 666};
         int sumPositive = 0;
 
-        for (int i = 0; i < positiveNegativeInts.length; i++) {
-            if (positiveNegativeInts[i] > 0) {
-                sumPositive += positiveNegativeInts[i];
+        for (int positiveNegativeInt : positiveNegativeInts) {
+            if (positiveNegativeInt > 0) {
+                sumPositive += positiveNegativeInt;
             }
         }
 

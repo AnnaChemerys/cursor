@@ -87,8 +87,8 @@ public class Main {
 
     public static <T> boolean checkSimilarElement(ArrayList<T> newList, ArrayList<T> newList1) {
         for (var element : newList) {
-            if (newList1.contains(element))
-                return true;
+            if (newList1.contains(element)){
+                return true;}
         }
         return false;
     }

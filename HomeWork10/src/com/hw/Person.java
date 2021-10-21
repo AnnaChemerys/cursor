@@ -32,7 +32,7 @@ public class Person {
         return gender;
     }
 
-    public Country getCountry(){
+    public Country getCountry() {
         return country;
     }
 
